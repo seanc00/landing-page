@@ -53,7 +53,8 @@ end of header styles
 */
 .container {
     background-color: white;
-
+    margin-right: 60px;
+    margin-left: 60px;
     margin-bottom: 40px;
     display: flex;
     justify-content: space-around;
@@ -75,6 +76,26 @@ end of header styles
     gap: 20px;
     justify-content: center;
 }
+
+/*showcase content styles*/
+.showcaseContent {
+    margin-top: 200px;
+}
+
+.bigContainer > div > .container {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+.container > img {
+    width: 500px;
+}
+.bigContainer > div {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
 /*
     end of body styles
 */
