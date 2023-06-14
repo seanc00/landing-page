@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+}
+
+/*
+header styles
+*/
+.headerContainer {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    border: solid black 2px;
+}
+.headerLeft > img {
+    width: 400px;
+}
+
+.headerRight {
+    display: flex;
+    gap: 80px;
+}
+.headerRight > div > a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+/*
+end of header styles
+*/
