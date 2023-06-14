@@ -4,6 +4,7 @@
 * {
     margin: 0;
     font-family: Impact, Charcoal, sans-serif;
+    transition: 200px;
 }
 
 body {
@@ -68,7 +69,7 @@ end of footer/header styles
     body styles
 */
 .container {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     margin-right: 60px;
     margin-left: 60px;
     margin-bottom: 40px;
@@ -104,14 +105,60 @@ end of footer/header styles
     width: 600px;
 }
 .container > img {
-    width: 500px;
+    width: 600px;
+    height: 300px;
 }
 .bigContainer > div {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
-
+#block {
+    align-items: center;
+}
+#block > img {
+    margin-bottom: 30px;
+}
+#block > p {
+    text-align: center;
+}
+p {
+    color: rgb(71, 71, 71);
+}
 /*
     end of body styles
+*/
+
+/* 
+    hover/active styles 
+*/
+#link {
+    transition: 400ms;
+}
+#link:hover {
+    transition: 400ms;
+    font-size: 35px;
+}
+#link:active {
+    opacity: 0.5;
+    transition: 0ms;
+}
+
+.contactBtn {
+    transition: 400ms;
+    padding: 5px;
+    background-color: white;
+}
+.contactBtn:hover {
+    padding: 10px;
+    transition: 400ms;
+}
+.contactBtn:active {
+    opacity: 0.8;
+    transition: 0ms;
+    background-color: black;
+    color: white;
+}
+/* 
+    end of hover/active styles 
 */
