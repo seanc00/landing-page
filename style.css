@@ -126,6 +126,18 @@ end of footer/header styles
 p {
     color: rgb(71, 71, 71);
 }
+
+/* quote styles */
+.quote > p {
+    font-size: 40px;
+    font-style: italic;
+    text-align: center;
+}
+.quote > p > span {
+    font-size: 25px;
+    color: black;
+
+}
 /*
     end of body styles
 */
